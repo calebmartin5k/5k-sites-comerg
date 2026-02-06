@@ -95,10 +95,11 @@ const PipelineView: React.FC<PipelineViewProps> = ({ userRole }) => {
                 borderRadius: '8px',
                 fontSize: '12px'
               }}
-              formatter={(value: number, name: string) => {
+              formatter={((value: number | undefined, name: string) => {
+                if (!value) return ['$0', name];
                 if (name === 'value') return [`$${(value / 1000).toFixed(0)}K`, 'Value'];
                 return [value, 'Count'];
-              }}
+              }) as any}
             />
             <Bar dataKey="value" fill="#6E9934" radius={[8, 8, 0, 0]} />
           </BarChart>

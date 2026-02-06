@@ -14,6 +14,8 @@ const Statement: React.FC = () => {
   useGSAP(() => {
     const words = textRef.current?.querySelectorAll('.word');
     
+    if (!words || words.length === 0) return;
+    
     gsap.fromTo(words, 
       { opacity: 0.05, y: 30 },
       {
