@@ -1,0 +1,27 @@
+{
+  "baseUrl": "https://comerg.com",
+  "scrapedAt": "2026-02-06T00:28:59.806Z",
+  "totalPages": 2,
+  "successful": 2,
+  "failed": 0,
+  "pages": [
+    {
+      "url": "https://comerg.com/news.php",
+      "timestamp": "2026-02-06T00:28:45.503Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://comerg.com/contacts.php",
+      "timestamp": "2026-02-06T00:28:59.679Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "comerg-next-gen",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "framer-motion": "^12.33.0",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.563.0",
+    "next": "^15.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hook-form": "^7.71.1",
+    "recharts": "^3.7.0",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "^15.1.6",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.8.2"
+  }
+}
