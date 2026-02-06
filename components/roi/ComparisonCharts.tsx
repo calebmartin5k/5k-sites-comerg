@@ -112,7 +112,7 @@ const ComparisonCharts: React.FC = () => {
         </h2>
         
         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-          Based on your inputs, here's a comprehensive comparison showing how COMERG's LPE technology delivers superior economics compared to {methodName}.
+          Based on your inputs, here&apos;s a comprehensive comparison showing how COMERG&apos;s LPE technology delivers superior economics compared to {methodName}.
         </p>
       </div>
 
@@ -326,7 +326,7 @@ const ComparisonCharts: React.FC = () => {
               the COMERG LPE system reaches break-even in approximately <strong className="text-brand-green">{roiMonths.toFixed(1)} months</strong>.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              After that point, you'll save approximately <strong className="text-brand-green">${(annualSavings / 1000).toFixed(0)}K annually</strong> compared 
+              After that point, you&apos;ll save approximately <strong className="text-brand-green">${(annualSavings / 1000).toFixed(0)}K annually</strong> compared 
               to your current {methodName} system. Over 5 years, your cumulative savings will reach <strong className="text-brand-green">${((annualSavings * 5 + capExSavings) / 1000).toFixed(0)}K</strong>.
             </p>
           </div>

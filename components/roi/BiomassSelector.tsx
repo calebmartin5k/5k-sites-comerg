@@ -31,7 +31,7 @@ const BiomassSelector: React.FC = () => {
       </h2>
       
       <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-        Choose the botanical you're currently processing. Different materials have unique extraction profiles that affect your operational costs and yield quality.
+        Choose the botanical you&apos;re currently processing. Different materials have unique extraction profiles that affect your operational costs and yield quality.
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-4">

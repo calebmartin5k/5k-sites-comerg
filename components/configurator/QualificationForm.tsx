@@ -96,7 +96,7 @@ const QualificationForm: React.FC = () => {
             <option value="influencer">Key Influencer</option>
             <option value="researcher">Researcher/Scout</option>
           </select>
-          <p className="text-xs text-gray-500">What's your role in the purchasing decision?</p>
+          <p className="text-xs text-gray-500">What&apos;s your role in the purchasing decision?</p>
         </div>
 
         {/* Need */}
@@ -115,7 +115,7 @@ const QualificationForm: React.FC = () => {
             <option value="planning">Planning Phase (Confirmed project)</option>
             <option value="exploring">Exploring Options (Research mode)</option>
           </select>
-          <p className="text-xs text-gray-500">What's driving this inquiry?</p>
+          <p className="text-xs text-gray-500">What&apos;s driving this inquiry?</p>
         </div>
 
         {/* Timeline */}
@@ -211,7 +211,7 @@ const QualificationForm: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           className="p-6 bg-brand-dark/50 border border-white/10"
         >
-          <h4 className="text-white font-bold mb-4 text-sm">Lead Scoring Breakdown:</h4>
+          <h4 className="text-white font-bold mb-4 text-sm">Lead Scoring Breakdown</h4>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs">
             <div>
               <div className="text-gray-500 mb-1">Budget</div>
