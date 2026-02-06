@@ -50,7 +50,7 @@ export default function ToolsPage() {
                 className="text-gray-400 text-lg leading-relaxed max-w-3xl mx-auto mb-12"
               >
                 We researched your industry and built these demonstration tools based on common challenges 
-                in botanical extraction businesses. While we don't claim to know your specific pain points, 
+                in botanical extraction businesses. While we don&apos;t claim to know your specific pain points, 
                 these examples showcase our ability to create sophisticated, data-driven solutions tailored 
                 to any operational need.
               </motion.p>
@@ -66,7 +66,7 @@ export default function ToolsPage() {
                   Our Capability Demonstration
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  These tools represent <strong className="text-white">what's possible</strong> when you combine 
+                  These tools represent <strong className="text-white">what&apos;s possible</strong> when you combine 
                   industry research with modern web technology. We can build custom interactive tools, dashboards, 
                   calculators, configurators, or any digital solution your team needs to work more efficiently 
                   or serve your customers better.
@@ -106,7 +106,7 @@ export default function ToolsPage() {
 
                   <p className="text-gray-300 text-sm leading-relaxed mb-6">
                     An interactive calculator that helps potential customers understand the financial benefits 
-                    of switching extraction technologies. Think of it like a "mortgage calculator" but for 
+                    of switching extraction technologies. Think of it like a &ldquo;mortgage calculator&rdquo; but for 
                     industrial equipment – users input their current operation details and instantly see 
                     potential savings.
                   </p>
@@ -200,7 +200,7 @@ export default function ToolsPage() {
 
                   <p className="text-gray-300 text-sm leading-relaxed mb-6">
                     A guided system builder for sales teams to configure custom equipment packages. 
-                    Think of it like "building a car" on an automotive website – select components, 
+                    Think of it like &ldquo;building a car&rdquo; on an automotive website – select components, 
                     see the price update in real-time, and get accurate quotes without waiting for 
                     engineering approval.
                   </p>
@@ -238,7 +238,7 @@ export default function ToolsPage() {
                         A sales rep receives an inquiry from a pharmaceutical company. They use the configurator 
                         to ask qualifying questions, build a system with 3x 150L extraction vessels + GC analysis 
                         module + crystallization reactor. The tool instantly provides a $487,000 quote with 
-                        12-week lead time and scores the lead as "High Priority" (92/100).
+                        12-week lead time and scores the lead as &ldquo;High Priority&rdquo; (92/100).
                       </p>
                     </div>
 
@@ -333,7 +333,7 @@ export default function ToolsPage() {
                   Your Challenges Are Unique
                 </h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  We don't claim to know exactly what your business needs. These tools are demonstrations 
+                  We don&apos;t claim to know exactly what your business needs. These tools are demonstrations 
                   of <strong className="text-white">capability</strong>, not prescriptions. The real value 
                   comes when we work with you to understand your specific challenges and build custom 
                   solutions that fit your exact workflow.
@@ -346,7 +346,7 @@ export default function ToolsPage() {
                   href="/contacts"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-brand-green text-white font-bold uppercase tracking-widest text-sm hover:bg-brand-green/90 transition-colors"
                 >
-                  Let's Discuss Your Needs
+                  Let&apos;s Discuss Your Needs
                   <ArrowRight size={16} />
                 </a>
               </div>
@@ -362,7 +362,7 @@ export default function ToolsPage() {
                 What We Can Build
               </h2>
               <p className="text-gray-400 max-w-2xl mx-auto text-sm">
-                These tools showcase just a fraction of what's possible with modern web technology.
+                These tools showcase just a fraction of what&apos;s possible with modern web technology.
               </p>
             </div>
 

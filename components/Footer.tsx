@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { SITE_DATA } from '../constants';
 
 const BrandLogo = ({ className = "h-10 w-10" }: { className?: string }) => (
@@ -69,10 +70,10 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex gap-12 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-            <a href="/#technology" className="hover:text-white transition-colors">Technology</a>
-            <a href="/#applications" className="hover:text-white transition-colors">Applications</a>
-            <a href="/news" className="hover:text-white transition-colors">News</a>
-            <a href="/contacts" className="hover:text-white transition-colors">Contact</a>
+            <Link href="/#technology" className="hover:text-white transition-colors">Technology</Link>
+            <Link href="/#applications" className="hover:text-white transition-colors">Applications</Link>
+            <Link href="/news" className="hover:text-white transition-colors">News</Link>
+            <Link href="/contacts" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
         

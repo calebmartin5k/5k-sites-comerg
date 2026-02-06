@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 const Navbar: React.FC = () => {
@@ -70,14 +71,14 @@ const Navbar: React.FC = () => {
         {/* Links Left (Desktop) */}
         <div className="hidden md:flex items-center gap-12">
            {navLinks.slice(0, 2).map((link) => (
-            <a 
+            <Link 
               key={link.name} 
               href={link.href}
               className="text-xs font-medium tracking-[0.2em] uppercase text-white hover:text-brand-green transition-colors duration-300 relative group"
             >
               {link.name}
               <span className="absolute -bottom-2 left-0 w-0 h-[1px] bg-brand-green group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
           ))}
           
           {/* Tools Dropdown */}
@@ -98,13 +99,13 @@ const Navbar: React.FC = () => {
             {toolsOpen && (
               <div className="absolute top-full left-0 mt-4 w-64 bg-brand-dark/95 backdrop-blur-md border border-white/10 shadow-xl z-50">
                 {toolsLinks.map((link) => (
-                  <a
+                  <Link
                     key={link.name}
                     href={link.href}
                     className="block px-6 py-3 text-xs tracking-wider uppercase text-gray-300 hover:text-white hover:bg-brand-green/20 transition-colors border-b border-white/5 last:border-0"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             )}
@@ -112,7 +113,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Center Logo */}
-        <a href="/" className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-3 group">
+        <Link href="/" className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-3 group">
            <div className="p-1 transition-transform duration-500 group-hover:rotate-12">
              <BrandLogo className="h-10 w-10" />
            </div>
@@ -124,19 +125,19 @@ const Navbar: React.FC = () => {
                Natural Extraction
              </span>
            </div>
-        </a>
+        </Link>
 
         {/* Links Right (Desktop) */}
         <div className="hidden md:flex items-center gap-12">
            {navLinks.slice(2).map((link) => (
-            <a 
+            <Link 
               key={link.name} 
               href={link.href}
               className="text-xs font-medium tracking-[0.2em] uppercase text-white hover:text-brand-green transition-colors duration-300 relative group"
             >
               {link.name}
               <span className="absolute -bottom-2 left-0 w-0 h-[1px] bg-brand-green group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -154,28 +155,28 @@ const Navbar: React.FC = () => {
         <div className="flex flex-col h-full justify-center items-center gap-8">
            <BrandLogo className="h-16 w-16 mb-8" />
            {navLinks.map((link) => (
-            <a 
+            <Link 
               key={link.name} 
               href={link.href}
               className="text-3xl font-serif text-white hover:text-brand-green transition-colors"
               onClick={() => setMobileOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
            
            {/* Mobile Tools Links */}
            <div className="text-center space-y-4 pt-4 border-t border-white/10">
              <div className="text-sm text-gray-500 uppercase tracking-widest">Tools</div>
              {toolsLinks.map((link) => (
-               <a 
+               <Link 
                  key={link.name} 
                  href={link.href}
                  className="block text-lg text-gray-300 hover:text-brand-green transition-colors"
                  onClick={() => setMobileOpen(false)}
                >
                  {link.name}
-               </a>
+               </Link>
              ))}
            </div>
         </div>

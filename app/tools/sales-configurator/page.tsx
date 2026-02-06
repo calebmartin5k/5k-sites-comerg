@@ -191,7 +191,7 @@ export default function SalesConfigurator() {
                   Accurate Pricing
                 </h3>
                 <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                  Pre-configured modules with approved pricing eliminate quoting errors. Sales reps can't 
+                  Pre-configured modules with approved pricing eliminate quoting errors. Sales reps can&apos;t 
                   accidentally quote below cost or promise unrealistic delivery dates.
                 </p>
                 <div className="text-brand-green font-bold text-2xl">99% accuracy</div>

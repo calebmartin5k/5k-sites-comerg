@@ -55,7 +55,7 @@ const QualificationForm: React.FC = () => {
       </div>
 
       <p className="text-gray-400 text-sm leading-relaxed max-w-3xl">
-        Ask these questions to understand the prospect's situation and qualify the opportunity. 
+        Ask these questions to understand the prospect&apos;s situation and qualify the opportunity. 
         The system automatically calculates a lead score based on Budget, Authority, Need, and Timeline.
       </p>
 

@@ -68,7 +68,7 @@ export default function NewsPage() {
                             </p>
                             
                             <blockquote className="border-l-2 border-brand-green pl-6 py-2 my-8 text-white italic text-lg bg-white/5 p-6">
-                                "Our new Low Pressure Extraction technology is a game-changer for the food, pharmacy and perfume industries because it can produce up to six times higher yield than the CO2 technology in one-sixth of the time."
+                                &ldquo;Our new Low Pressure Extraction technology is a game-changer for the food, pharmacy and perfume industries because it can produce up to six times higher yield than the CO2 technology in one-sixth of the time.&rdquo;
                                 <footer className="text-sm text-brand-gold mt-4 not-italic font-bold tracking-widest uppercase">— Dr. George Stantchev, CEO</footer>
                             </blockquote>
 

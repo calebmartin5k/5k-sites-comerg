@@ -79,7 +79,7 @@ export default function ROICalculator() {
                 transition={{ delay: 0.2 }}
                 className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto mb-8"
               >
-                Discover how much you could save by switching to COMERG's Low Pressure Extraction technology. 
+                Discover how much you could save by switching to COMERG&apos;s Low Pressure Extraction technology. 
                 Our interactive tool provides a personalized financial analysis based on your specific operation.
               </motion.p>
 
@@ -203,7 +203,7 @@ export default function ROICalculator() {
                   </h2>
                   <p className="text-gray-300 mb-8 leading-relaxed">
                     Get a detailed professional analysis from our extraction specialists. 
-                    We'll provide equipment recommendations, implementation timeline, and a comprehensive financial model.
+                    We&apos;ll provide equipment recommendations, implementation timeline, and a comprehensive financial model.
                   </p>
                   <button
                     onClick={() => setShowModal(true)}
